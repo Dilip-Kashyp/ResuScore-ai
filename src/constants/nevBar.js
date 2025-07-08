@@ -17,7 +17,7 @@ export const NAVBAR_STACK_CONFIG = {
   sx: {
     fontSize: { xs: "0.9rem", sm: "1rem" },
     width: { xs: "100%", sm: "auto" },
-    padding: { xs: "10px 10px", sm: "5px 20px" },
+    padding: { xs: "5px 10px", sm: "5px 20px" },
     color: "#ffffff",
     borderRadius: "50px",
     textTransform: "none",

@@ -33,7 +33,6 @@ function NavBar() {
         sx={{
           justifyContent: "center",
           flexDirection: "row",
-          padding: { xs: "0px", sm: "" },
         }}
       >
         <Box
@@ -41,7 +40,7 @@ function NavBar() {
             display: "flex",
             flexDirection: "row",
             width: "auto",
-            gap: 2,
+            gap: {xs : 0, sm : 2},
           }}
         >
           {MENU_ITEMS(isLoggedIn).map((item) => {
